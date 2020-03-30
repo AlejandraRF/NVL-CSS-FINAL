@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    height: 150px;
+    width: 100%;
+    overflow: auto;
+    background-color: #16a085;
+    color: #f2f2f2;
+}
+
+.navleft{
+    float:left;
+    width: 20%;
+}
+
+.navleft img{
+    max-height: 150px;
+}
+
+.navcenter{
+    float:left;
+    width: 60%;
+}
+
+.navright{
+    float: left;
+    width: 20%;
+}
+
+@media (max-width:720px){
+    .nav{
+        height: 80px;
+    }
+
+    .navleft img{
+         display: block;
+         max-width: 80px;
+    }
+}
+
+.container{
+    overflow: auto;
+}
+
+.col{
+    float: left;
+}
+
+.menu{
+    width: 20%;
+    padding: 10px;
+}
+
+.central{
+    width: 55%;
+    padding: 20px;
+}
+
+.derecha{
+    width: 25%;
+    padding: 20px;
+}
+
+.menu > ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.menu ul > li{
+margin-left: 10px;
+}
+
+.menu a{
+    display: block;
+    padding: 5px;
+    color: inherit;
+    border-bottom: 1px solid #cccccc;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color:white;
+    background-color: #16a085;
+}
+
+.menu h4, .derecha h4{
+    background-color: #16a085;
+    padding: 5px;
+    color: #f2f2f2;
+    border-radius: 2px;
+}
+
+.post{
+    width: 100%;
+    background-color: #f2f2f2;
+    margin: 10px auto;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    padding: 20px;
+    overflow:auto;
+}
+
+.post > h3{
+    border-bottom: 1px solid #cccccc;
+    color: #16a085;
+}
+
+.post > img{
+    display: block;
+    float: left;
+    margin-right: 15px;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 3px;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    background-color: white;
+    overflow: auto;
+}
+
+.post > p{
+    float: left;
+    width: 60%;
+    padding: 0;
+    margin: 0;
+}
+
+.btn{
+    clear: both;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.btn button{
+    display: block;
+    border: none;
+    border-radius: 3px;
+    background-color: #16a085;
+    padding:10px;
+    color: #f2f2f2;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.derecha a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 3px;
+}
+
+.derecha a:hover{
+    color: #16a085;
+    font-weight: bold;
+}
+
+.tag{
+    display: inline-block;
+    padding: 5px;
+    font-size: 0.7em;
+    background-color: #3498db;
+    border-radius: 10px;
+    color: #f2f2f2;
+    cursor: pointer;
+}
+
+.tag:hover{
+    background-color: #e67e22;
+    font-size: 0.8em;
+}
+
+.tags{
+
+    margin-top: 5px;
+    font-size: 0.8em;
+    color: #7f8c8d;
+}
+
+.footer{
+    padding:30px;
+    height: 200px;
+    background-color: #34495e;
+    color: #f2f2f2;
+}
+
+.left_footer{
+    float: left;
+    width: 30%;
+}
+
+.right_footer{
+    font-size: 0.8em;
+    border-left: 1px solid #f2f2f2;
+    margin-left: 30%;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+right_footer .social > i{
+    display: inline-block;
+    font-size: 2em;
+    margin-left: 5px;
+}
+
